@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.option{
+    width: 20px;
+    padding: 20px;
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+}
+.quiz{
+    border: 1px solid rgb(235, 187, 194);
+    width: 30%;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: rgb(235, 187, 194);
+}
+.o1,.o2,.o3,.o4{
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: left;
+}
+.option-list .option.correct{
+    background: #09001d;
+    color: #00a63d;
+    border-color: #00a63d;
+
+}
+.option-list .option.incorrect{
+    background: #09001d;
+    color: #a60045;
+    border-color: #a60045;
+
+}

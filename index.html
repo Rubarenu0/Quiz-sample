@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="quiz">
+   <h1>In web design,what does CSS stand for?</h1>
+   <div class="option-1">
+    <button  class="option">A</button>
+    <button class="o1 demo1" onclick="userAns1()" value="Counter Strike:Source">Counter Strike:Source</button>
+   </div>
+   <div class="option-2">
+    <button class="option">B</button>
+    <button class="o2 demo2" onclick="userAns2()">Corrective Style Sheet</button>
+   </div>
+   <div class="option-3">
+    <button class="option">C</button>
+    <button class="o3 demo3" onclick="userAns3()">Computer Style Sheet</button>
+   </div>
+   <div class="option-4">
+    <button  class="option">D</button>
+    <button class="o4 demo4" onclick="correctAns()"> Cascading Style Sheet</button>
+   </div>
+</div>
+<div class="optionlist">
+
+</div>
+
+<script>
+    var question={
+    question1:"In web design, what does CSS stand for?",
+    answer:"Cascading Style Sheet",
+    option:[
+        "A. Counter Strike: Source",
+        "B. Corrective Style Sheet",
+        "C. Computer Style Sheet",
+        "D. Cascading Style Sheet"
+    ]
+}
+
+</script>
+<script src="script.js"></script>
+</body>
+</html>
